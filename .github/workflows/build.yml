@@ -2,7 +2,7 @@ name: Build Budgie OS Based On Fedora 44 Bootc Image
 
 on:
   schedule:
-    - cron: "22 20 * * *" # 每天 CST 04:22 构建
+    - cron: "02 19 * * *" # 每天 CST 03:02 构建
   push:
     paths-ignore:
       - "**.md"
