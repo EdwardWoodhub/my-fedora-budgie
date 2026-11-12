@@ -7,6 +7,7 @@ RUN curl -Lo /etc/yum.repos.d/_copr_zhullyb-v2rayA.repo \
 # 2. 安装所有软件包（一行一个软件）
 RUN rpm-ostree install \
     adwaita-cursor-theme \
+    adwaita-icon-theme \
     atril \
     btop \
     budgie-desktop \
